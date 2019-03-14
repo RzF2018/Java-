@@ -6,7 +6,7 @@ import FactoryPattern.animal.impl.Dog;
 import FactoryPattern.animal.impl.Fish;
 
 public class AnimalFactory {
-    //使用getType方法获取形状类型对象
+    //使用getType方法获取动物类型对象
     public Animal getType(String rationType){
         Animal animal =null;
         if (rationType == null){
